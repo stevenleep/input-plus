@@ -1,0 +1,37 @@
+{
+  "name": "input-plus",
+  "version": "0.0.0",
+  "description": "An incredible input component, which satisfies almost all you can input the scene.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "input",
+    "email-input",
+    "tel-input",
+    "currency-input",
+    "number-input",
+    "password-input",
+    "date-input",
+    "time-input",
+    "card-input"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:branlice/input-plus.git"
+  },
+  "author": {
+    "name": "branlice",
+    "email": "lishiwen@wclound.cn"
+  },
+  "license": {
+    "type": "Mozilla Public License 2.0",
+    "url": "./LICENSE"
+  },
+  "devDependencies": {
+    "typescript": "4.8.4"
+  }
+}
