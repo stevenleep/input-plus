@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:packages": "ts-node ./scripts/build.ts"
   },
   "keywords": [
     "input",
@@ -32,6 +33,10 @@
     "url": "./LICENSE"
   },
   "devDependencies": {
-    "typescript": "4.8.4"
+    "@types/node": "18.11.9",
+    "rollup": "3.2.5",
+    "ts-node": "10.9.1",
+    "typescript": "4.8.4",
+    "vite": "3.2.2"
   }
 }
