@@ -1,5 +1,11 @@
 # input-plus
 
+## install
+
+```bash
+pnpm install input-plus
+```
+
 ## TODO
 - [ ] text input
 - [ ] number input
