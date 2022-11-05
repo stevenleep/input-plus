@@ -1,0 +1,35 @@
+{
+  "name": "@renovator/input-plus-react",
+  "version": "0.0.0",
+  "description": "An incredible input component, which satisfies almost all you can input the scene.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'hello input-plus-react'"
+  },
+  "keywords": [
+    "input",
+    "email-input",
+    "tel-input",
+    "currency-input",
+    "number-input",
+    "password-input",
+    "date-input",
+    "time-input",
+    "card-input"
+  ],
+  "author": "",
+  "license": {
+    "type": "Mozilla Public License 2.0",
+    "url": "../../LICENSE"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "@renovator/input-plus-utils": "workspace:^0.0.0"
+  }
+}
