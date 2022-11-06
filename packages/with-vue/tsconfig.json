@@ -1,0 +1,10 @@
+{
+    "extends": "@renovator/shared/tsconfig-ui.json",
+    "include": ["src/**/*", "src/**/*.vue", "shims.d.ts"],
+    "exclude": ["node_modules", "dist"],
+    "compilerOptions": {
+        "emitDeclarationOnly":true,
+        "outDir": "dist",
+        "rootDir": "src"
+    },
+}

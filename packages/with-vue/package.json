@@ -25,6 +25,8 @@
   },
   "devDependencies": {
     "@renovator/input-plus-utils": "workspace:^0.0.0",
+    "@renovator/shared": "workspace:^0.0.0",
+    "@vitejs/plugin-vue": "3.2.0",
     "vue": "^3.2.41"
   },
   "peerDependencies": {
