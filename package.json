@@ -5,7 +5,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "publish": "pnpm publish",
+    "publish": "pnpm changeset publish",
+    "alpha": "pnpm changeset publish --tag alpha",
+    "beta": "pnpm changeset publish --tag beta",
+    "rc": "pnpm changeset publish --tag rc",
     "build": "pnpm run --filter '*' build",
     "build:packages": "ts-node ./scripts/build.ts"
   },
