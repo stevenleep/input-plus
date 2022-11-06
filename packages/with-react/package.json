@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "description": "An incredible input component, which satisfies almost all you can input the scene.",
   "type": "module",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist/**/*"],
   "scripts": {
-    "build": "echo 'hello input-plus-react'"
+    "build": "vite build"
   },
   "keywords": [
     "input",
@@ -27,6 +29,8 @@
     "react": "^18.2.0"
   },
   "devDependencies": {
+    "@renovator/shared": "workspace:^0.0.0",
+    "@vitejs/plugin-react": "2.2.0",
     "react": "^18.2.0"
   },
   "dependencies": {
