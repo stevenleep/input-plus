@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "module": "esnext",
+        "target": "esnext",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": true,
+        "lib": ["dom", "dom.iterable", "esnext"]
+    },
+}

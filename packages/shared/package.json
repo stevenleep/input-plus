@@ -1,0 +1,12 @@
+{
+  "name": "@renovator/shared",
+  "version": "0.0.0",
+  "description": "Shared code for Renovator",
+  "keywords": ["shared code"],
+  "files": ["*"],
+  "author": {
+    "name": "branlice",
+    "email": "lishiwen@wclound.cn"
+  },
+  "license": "ISC"
+}

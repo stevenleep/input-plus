@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationDir": "dist",
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "noImplicitOverride": true,    
+    "noUncheckedIndexedAccess": true,
+    "resolveJsonModule": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "skipLibCheck": true
+  }
+}
