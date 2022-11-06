@@ -5,7 +5,7 @@ import dts from "vite-plugin-dts";
 export default defineConfig({
     build: {
         lib: {
-            entry: 'src/index.tsx',
+            entry: 'src/index.ts',
             name: 'InputPlus',
             fileName: 'index',
         },

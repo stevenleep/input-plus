@@ -1,6 +1,6 @@
 {
     "extends": "@renovator/shared/tsconfig-ui.json",
-    "include": ["src/**/*"],
+    "include": ["src/**/*", "src/**/*.tsx"],
     "exclude": ["node_modules", "dist"],
     "compilerOptions": {
         "emitDeclarationOnly":true,
