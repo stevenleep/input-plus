@@ -1,5 +1,5 @@
 import React from "react";
-import { safeRenderElement } from "./helpers";
+import { safeRenderElement, types } from "./helpers";
 
 export type BaseInputProps = {
     id?: string | number | symbol;
@@ -15,10 +15,10 @@ const BaseInput: React.FC<BaseInputProps> = (props: BaseInputProps) => {
     const { addonBefore, addonAfter, inputElement, customRender } = props;
 
     // If a custom render function is provided, use it to render the component
-    if (customRender && typeof customRender === "function") {
+    if (types.isMeaningful(customRender) && types.isFunction(customRender)) {
         return customRender(props);
     }
-    
+
     // Otherwise, render the component using the default render function
     return (
         <div className={`input-plus ${props.wrapperClassName}`} style={props.style}>
