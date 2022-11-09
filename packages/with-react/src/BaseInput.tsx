@@ -18,7 +18,6 @@ const BaseInput: React.FC<BaseInputProps> = (props: BaseInputProps) => {
     if (types.isMeaningful(customRender) && types.isFunction(customRender)) {
         return customRender(props);
     }
-
     // Otherwise, render the component using the default render function
     return (
         <div className={`input-plus ${props.wrapperClassName}`} style={props.style}>
